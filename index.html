@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading...</title>
+  <script>
+    try {
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      const base = "https://form.typeform.com/to/y68wlwIz";
+      window.location.replace(base + "?timez=" + encodeURIComponent(tz));
+    } catch (e) {
+      window.location.replace("https://form.typeform.com/to/y68wlwIz");
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
